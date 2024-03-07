@@ -10,4 +10,4 @@ The ones used in the analysis in the "Montgomery County's Changing Income Trends
 
 See research brief for description of and rationale for framework.
 
-The code provided here 
+The code provided here (income_poverty_change_3_6_24.R) is basic and can be used for any geography. The data manipulation could also be more efficient through functional programming. 
