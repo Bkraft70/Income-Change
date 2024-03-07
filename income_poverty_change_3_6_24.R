@@ -24,6 +24,8 @@ library(clipr) # only needed if formatting and manipulating further in Excel
 
 #### Generate list of included counties and equivalents for analysis
 # full fips and county + state columns for tidycensus data pull function later
+# can download cbsa to fips crosswalk (cbas2fipsxw.csv) and read from a local drive
+
 cbsa2fipsxw <- read_csv("https://github.com/Bkraft70/Income-Change/blob/main/cbsa2fipsxw.csv", 
                         col_types = cols(cbsacode = col_character(), 
                                          csacode = col_character())) %>%
